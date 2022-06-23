@@ -1,0 +1,328 @@
+INTRODUÇÃO Á PROGRAMAÇÃO E PENSAMENTO COMPUTACIONAL
+
+PENSAMENTO COMPUTACIONAL
+ Overview – Pensamento computacional?
+Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador (Aho,2011; Lee,2016
+Baseado em 4 pilares
+1.	Decomposição
+2.	Reconhecimento de padrões
+3.	Abstração
+4.	Design de algoritmos
+
+Processo contínuo
+	Definir uma solução
+	Testar a solução 
+	Aperfeiçoamento da solução encontrada 
+
+HABILIDADES COMPLEMENTARES 
+	Raciocínio lógico  - é uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema. (Habilidade de treinamento)
+
+Indução - Ciências experimentais
+Dedução - Ciências exatas 
+Abdução- Conclusão
+
+Inferência – Sintética { Abdução – Indução }
+Inferência – analítica {dedução}
+
+	Aperfeiçoamento – A partir de uma solução determinar pontos de melhora e refinamento 
+
+Encontrar soluções eficientes  
+	 Melhora uso de recursos
+Otimizar processos
+
+
+Simplificar linhas de códigos
+	Melhora códigos e algoritmos
+Funções bem definidas 
+
+PILARES DE DECOMPOSIÇÃO
+“Sé você tem um problema que não consegue resolver, existe um problema mais fácil que você pode  resolver, encontre-o” George Polya – professos e matemático.
+
+‘Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto, problemas mais fácies e gerenciáveis’
+
+Estratégias:
+
+Análise:
+Processo de quebra e determinar partes menores e gerenciáveis.
+(Estudar, explorar; Decompor em elementos constituintes; Realizar exames detalhados)
+
+Síntese:
+Combinar os elementos recompondo o problema original.
+(Processo de reconstrução; Reunir elementos distintos em um único elemento; Fundir os elementos de maneira coerente)
+
+ Ordem de execução de tarefas menores :
+
+	Sequencial   - Dependência entre tarefas executadas em “fila” 
+	Paralelo – Tarefas podem ser executadas concomitantemente ( = eficiências – tempo)
+                                                                        
+
+Como decompor:
+Identificar ou coletar os dados > Agregar os dados > Funcionalidade 
+
+
+PILARES PADRÕES 
+	Modelo base
+	Estrutura invariante
+	Repetição
+
+Por que determinar padrões?
+- Generalizar, com objetos de obter resolução para problemas diferentes.
+Como? 
+- Classes e categorias 
+Grau de similaridade / Grupos conhecidos  / Objeto desconhecido 
+PILARES DE ABSTRAÇÃO
+Generalização / Abstração
+Abstrair: Observar, um ou mais elementos, avaliando características e propriedades em separado 
+Abstração: Processo intelectual de isolamento de um objeto da realidade
+Generalizar: Tornar-se geral, mais amplo, extensão
+
+Generalização na lógica, é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos.
+Como classificar os dados:
+
+	Características 
+	Pontos essências
+	Generalizar / detalhar 
+
+PILARES DE ALGORITMOS 
+Desenvolvimento do Programa
+	Análise  
+Estudo e definição dos dados
+
+	Algoritmo
+Descreve o problema por meio de ferramentas narrativas, fluxograma, ou pseudocódigos codificados.
+
+	Codificação
+O algoritmo é codificado de acordo com a linguagem de programação escolhida.
+Como construir um algoritmo:
+	Compreensão do problema – Pontos mais importantes
+	Definição dados de entrada – Dados fornecidos e cenário 
+	Definir processamento –  Cálculo e restrições
+	Definir dados de saída – Após processamento
+	Utilizar método de construção – Construção e refinamento do algoritmo 
+	Testes e diagnósticos – teste de funcionabilidade
+Construção de algoritmos
+Narrativa – Utilização da linguagem natural
+Fluxograma – Utilização de símbolos pré-definidos
+Pseudocódigo – Portugol 
+INTRODUÇÃO Á LÓGICA DE PROGRAMAÇÃO
+
+CONCEITO DE ALGORITMOS E RESOLUÇÃO DE PROBLEMAS 
+Problemas 
+Definição formal:
+“Problema é uma questão que foge a uma determinada regra, ou melhor é um desvio de percurso, o qual impede de atingir um objetivo com eficiência e eficácia” 
+
+Lógica 
+Definição formal:
+“parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência etc.) e das operações intelectuais que visam á determinação do que é verdadeiro ou não.” 
+“ Organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa.” 
+
+
+TECNICAS DE LOGICAS DE PROGRAMAÇÃO 
+Técnica linear
+Execução sequenciada, ordenação de elementos por uma única propriedade. 
+Recursos limitados, única dimensão.
+
+	Modelo tradicional
+•	Não tem Vinculo – Estrutura hierárquica – programação de computadores
+
+Técnica  modular 
+Partes independentes, controlada por um conjunto de regras.
+Dados de entrada > processo de transformação > dados de saída 
+
+
+
+
+
+FUNDAMENTOS DE ALGORITMOS
+
+TIPOLOGIAS E VARIÁVEIS 
+Tipo – dados: Tratados e processados 
+Numéricos : Inteiros e reais.
+Caractere : Letras, números e símbolos.
+Lógico : Booleano ( Verdadeiro ou Falso) (.verdadeiro, .V ou .S, . Falso, .F ou . N)
+
+Variável – Pode assumir qualquer um dos valores de um determinado conjunto de valores. Contudo restrita ao seu tipo, se for do tipo numérico vai receber numérica.
+a-b=d
+a-b=c
+
+Regras:
+•	Atribuir de um ou mais caracteres 
+•	Primeira letra – não número
+•	Sem espaço em branco
+•	Vedado
+•	Utilização de palavras reservadas
+•	Caracteres e números 
+
+Papeis de uma variável :
+Ação : modifica o estado do algoritmo
+Controle : vigiado para controle de uma estrutura ou dentro de uma equação. 
+
+INSTRUÇÕES PRIMITIVAS 
+Cálculos matemáticos 
+Variáveis e constantes
+
++  Manutenção de sinal                                          Div  Divisão
+-  Inversão de sinal                                                 *  Divisão 
+^  Exponenciação                                                   +  Adição
+/  Divisão                                                                -  Subtração
+Definição formal:
+Instruções são linguagens de palavras-chaves ( vocabulário) de uma determinada programação que tem por finalidade comandar um computador que irá tratar os dados.
+
+ESTRUTURAS CONDICIONAIS E OPERADORES
+Estrutura condicional : Expressa uma condição ou suposição contem ou implica uma suposição ou hipótese 
+
+Tipos de estruturas :
+•	Simples
+•	Composta
+•	Encadeada 
+Operadores relacionais –
+Símbolos :
+=                              Igual a
+<>                           Diferente de
+>                             Maior que
+<                             Menor que
+>=                           Maior ou igual a
+<=                           Menor ou igual
+
+Condicional Simples
+Se (<condição>) então
+<instruções para condição verdadeira>
+Fim_se
+
+Condição Composta
+Se (<condição>) então
+<instruções para condição verdadeira>
+Senão
+<instrução para condição falsa>
+Fim_se
+Condição Encadeado
+Se(<codição1>) então
+<instrução para condição verdadeira>
+Senão
+Se(<condição2>) então
+<instrução para: condição2 verdadeira e condição 1 falsa>
+Senão
+<instruções para condição 1 e 2 falsas>
+Fim_se
+
+ESTRUTURAS DE REPETIÇÃO
+( Obs  == significa comparação) 
+
+VETORES E MATRIZES
+Definição formal:
+“Um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado.”
+Container  ou  Matriz unidimensional
+“Matriz é uma tabela organizada em linha e coluna no formato M X N, onde M representa o número de linhas (horizontal) e N o número de colunas (vertical)”
+
+OQUE SÃO FUNÇÕES
+Sinônimos: Sub-algoritmo, Bloco, Função, Sub-programa, Sub-rotina, Método.
+Similar ao conceito de função da matemática. 
+
+Definição formal:
+As funções, ou Sub-rotinas são blocos de instruções que realizam tarefas especificas. 
+Ideia de decomposição  do algoritmo 
+•	Definição 
+•	Nome
+•	Invocação
+•	Variável
+“Todos são blocos de instruções (código), identificados por nomes e paramentos” 
+a função serve para facilitar sua vida!
+INSTRUÇÃO DE ENTRADA E SAIDA
+Definição formal:
+Entrada
+Consiste na inserção e recebimento de dados do mundo real por meio de ações de alguma interface, seja teclado, mouse, arquivos, entre outros.
+
+Saída
+Consiste na impressão dos dados do mundo abstrato, digital por meio de ação de alguma interface.
+Os formatos podem variar desde simples arquivos binários até complexas querys de banco de dados. 
+Existem dois tipos de saída dentro de um programa (algoritmo)
+Saída programada – condicional: aguarda o dispositivo disparar os valores / incondicional 
+Saída por interrupção – definida pelos periféricos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LINGUAGEM DE PROGRAMAÇÃO
+
+INSTRUÇÃO A LINGUAGEM DE PROGRAMAÇÃO
+A resumo  História da compunção:
+
+Primeiro dispositivo de cálculo – 3mil A.C
+Conceito de Software Charles Babbage – 1937
+Transcrição de Ada Lovelace – 1942-1943
+ACE Neuman e Turing – 1946
+IA - Turing – 1950
+Instrumentos computacionais – 1920
+Alan Turing na escola de cifra e código 9 matemáticos – 1940
+Projeto Dilab EUA Codificador de Voz Turing, Neuman e Shanon - entre  1940 – 1950
+Claude Shanon- Algebra Booleana – 1948
+Maquina de cartões usado no censo americano 1889
+
+
+1949 surge a primeira linguagem de programação – ASSEMBLY
+
+
+Que é uma linguagem de programação: 
+Método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte. 
+
+COMO UM CONPUTADOR ENTENDE O PROGRAMA
+Compilador recebe do código fonte (alto nível) e traduz para o código de baixo nível (Assembly) para que a máquina consiga entender o que está acontecendo. 
+Tradução:  (execução mais rápida ) ( Java, C++)
+Geração do programa objeto.
+Execução do programa objeto.
+Interpretação: (JS, Phiton, Ruby)
+Programa fonte executado diretamente. (maior flexibilidade porem mais lento)
+CARACTETISTICAS DE UM PROGRAMA
+
+Alguns dos pontos de essenciais no desenvolvimento de um programa:
+•	Legibilidade – facilidade de leitura, compreensão, ortogonalidade (coerência nas instruções) , Definição adequadas estruturas
+
+•	Redigibilidade – Pode conflitar com a legibilidade, Ortogonalidade, Simplicidade da escrita(coerência nas instruções/ facilidade de escrita) suporte pá abstração, reuso do código, expressividade.
+
+
+•	Confiabilidade – Verificação de tipos, Tratar exceções, Uso de ponteiros, Compatibilidade entre compiladores.
+
+•	Custo- Treinamento, Codificação, Compilação, Execução, Infraestrutura. 
+
+Atualização, uso de Ia, Disponibilidade de ferramentas, Comunidade ativa, Adoção pelo mercado.
+
+
+ANALISE DE CODIGO
+Analise feita pelo compilador:
+Lexical analyzer > Syntax analyzer> Semantic analyzer.
+
+Analise Léxica
+Primeira fase do processo de compilação, sua função é fazer a  leitura do programa fonte caractere por caractere e agrupar os caracteres em símbolos lexi ou tokens.
+
+Particionar> classificar> eliminar .
+
+Analise sintática 
+Sintaxe (forma)
+“Componente do sistema linguístico que interligam os constituintes da sentença atribuindo-lhe uma estrutura”
+Ela depende da linguagem programada. 
+
+Analise semântica
+Semântica (significado):
+“é o estudo do significado. Incide sobre a relação entre significantes, como: palavras, frases, sinais e símbolos” 
+
+
+PARADIGMAS DE PROGRAMAÇÃO
+
+Definição formal:
+“Forma de resolução de problemas com diretrizes e limitações especificas de cada paradigma e utilizando linguagem de programação”
+
+

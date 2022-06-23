@@ -1,0 +1,18 @@
+Link para dowload do GIT httpsgit-scm.comdownloadwin (versão atual 2.36.1)
+O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+NAVEGAÇÃO WINDOWS E UNIX	
+
+Windows
+Cd = mudar de diretório
+Dir = listar repositório
+Mkdir = criar diretorios
+Delrdmir = pagar
+Cls = limpar
+
+Unix- (linux  apple)
+Cd = mudar de diretório
+Ls = listar repositório
+Mkdir = criar diretórios
+Rm -rf = pagar
+
